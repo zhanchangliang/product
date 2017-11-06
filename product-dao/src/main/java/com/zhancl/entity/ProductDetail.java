@@ -41,6 +41,11 @@ public class ProductDetail {
      */
     private Integer viewCount;
 
+    /**
+     * 扩展字段
+     */
+    private String extendParam;
+
     public Integer getpId() {
         return pId;
     }
@@ -87,5 +92,13 @@ public class ProductDetail {
 
     public void setViewCount(Integer viewCount) {
         this.viewCount = viewCount;
+    }
+
+    public String getExtendParam() {
+        return extendParam;
+    }
+
+    public void setExtendParam(String extendParam) {
+        this.extendParam = extendParam;
     }
 }
